@@ -72,3 +72,5 @@ cd ${currdir}/extra/fftw3 && $PREFIX/bin/luarocks make rocks/fftw3-scm-1.rockspe
 cd ${currdir}/extra/signal && $PREFIX/bin/luarocks make rocks/signal-scm-1.rockspec
 
 cd ${currdir}/extra/nnx && $PREFIX/bin/luarocks make nnx-0.1-1.rockspec
+cd ${currdir}/extra/unsup && $PREFIX/bin/luarocks make unsup-0.1-0.rockspec
+cd ${currdir}/extra/manifold && $PREFIX/bin/luarocks make manifold-scm-0.rockspec

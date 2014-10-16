@@ -7,6 +7,8 @@ It's useful, and is better than installing torch system-wide.
 Uses git submodules, so always on the master packages.
 
 ```
+./clean_old.sh
+su change to superuser
 ./install.sh
 ```
 installs torch into the current folder torch-distro/install

@@ -79,3 +79,9 @@
 [submodule "extra/nnx"]
 	path = extra/nnx
 	url = https://github.com/clementfarabet/lua---nnx.git
+[submodule "extra/unsup"]
+	path = extra/unsup
+	url = https://github.com/koraykv/unsup.git
+[submodule "extra/manifold"]
+	path = extra/manifold
+	url = https://github.com/clementfarabet/manifold.git
