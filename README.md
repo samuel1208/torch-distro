@@ -4,16 +4,40 @@ torch-distro
 This is a packaging of torch that installs everything to the same folder (into a subdirectory install/).
 It's useful, and is better than installing torch system-wide.
 
-Uses git submodules, so always on the master packages.
+Uses git submodules, so always on the master packages.    
 
+__install__
+-------    
+--- 
 ```
 ./clean_old.sh
-su change to superuser
 ./install.sh
 ```
-installs torch into the current folder torch-distro/install
+The gfx maybe should install by yourself
 
-If you want to install in another location, change install.sh line 5 
+__config for zbsstudio__
+----------    
+---
+*  add the luajit interpreter    
+add following code into the user.lua    
 
-Tested on Ubuntu 14.04, CentOS/RHEL 6.3 and OSX
+```
+path.lua = "your_path/luajit" 
+```
+
+*  config the envrioment variable    
+Adding following code into the /opt/zbsstudio/lualibs/mobdebug/mobdebug.lua     
+
+```
+package.path = package.path .. ';my_path/?/init.lua'
+package.cpath = package.cpath .. ';my_path/?.so'
+```
+    
+
+__install path__
+-------    
+---
+*  installs torch into the current folder torch-distro/install. 
+*  If you want to install in another location, change install.sh line 5. 
+*  Tested on Ubuntu 14.04, CentOS/RHEL 6.3 and OSX
 
