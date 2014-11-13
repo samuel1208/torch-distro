@@ -85,3 +85,6 @@
 [submodule "extra/manifold"]
 	path = extra/manifold
 	url = https://github.com/clementfarabet/manifold.git
+[submodule "extra/torch-svm"]
+	path = extra/torch-svm
+	url = https://github.com/koraykv/torch-svm.git
