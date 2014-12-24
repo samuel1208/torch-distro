@@ -88,3 +88,9 @@
 [submodule "extra/torch-svm"]
 	path = extra/torch-svm
 	url = https://github.com/koraykv/torch-svm.git
+[submodule "extra/camera"]
+	path = extra/camera
+	url = https://github.com/clementfarabet/lua---camera.git
+[submodule "extra/dp"]
+	path = extra/dp
+	url = https://github.com/nicholas-leonard/dp.git
