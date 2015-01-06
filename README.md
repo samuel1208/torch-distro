@@ -23,6 +23,17 @@ add following code into the user.lua
 
 ```
 path.lua = "your_path/luajit" 
+path.lua = "/home/samuel/project/3rdparty/torch-distro/install/bin/luajit" 
+
+editor.tabwidth=4
+editor.usetabs=true
+editor.nomousezoom = true
+
+-- allow automatically open files during debuggig
+editor.autoactive = true
+
+-- close auto-complete
+acandtip.nodywords = false
 ```
 
 *  config the envrioment variable    
