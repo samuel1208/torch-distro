@@ -40,8 +40,8 @@ acandtip.nodywords = false
 Adding following code into the /opt/zbsstudio/lualibs/mobdebug/mobdebug.lua     
 
 ```
-package.path = package.path .. ';my_path/?/init.lua'
-package.cpath = package.cpath .. ';my_path/?.so'
+package.path = package.path .. ';`pwd`/install/share/lua/5.1/?/init.lua'
+package.cpath = package.cpath .. ';`pwd`/install/lib/?.so;`pwd`/install/lib/lua/5.1'
 ```
     
 
