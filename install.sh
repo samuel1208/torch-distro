@@ -40,7 +40,7 @@ cd ${currdir}/pkg/dok && $PREFIX/bin/luarocks make rocks/dok-scm-1.rockspec
 cd ${currdir}/pkg/gnuplot && $PREFIX/bin/luarocks make rocks/gnuplot-scm-1.rockspec
 
 cd ${currdir}/exe/qtlua && $PREFIX/bin/luarocks make rocks/qtlua-scm-1.rockspec
-cd ${currdir}/exe/trepl && $PREFIX/bin/luarocks make
+cd ${currdir}/exe/trepl && $PREFIX/bin/luarocks make trepl-scm-1.rockspec
 
 cd ${currdir}/extra/nn && $PREFIX/bin/luarocks make rocks/nn-scm-1.rockspec
 
@@ -74,4 +74,6 @@ cd ${currdir}/extra/signal && $PREFIX/bin/luarocks make rocks/signal-scm-1.rocks
 cd ${currdir}/extra/nnx && $PREFIX/bin/luarocks make nnx-0.1-1.rockspec
 cd ${currdir}/extra/unsup && $PREFIX/bin/luarocks make unsup-0.1-0.rockspec
 cd ${currdir}/extra/manifold && $PREFIX/bin/luarocks make manifold-scm-0.rockspec
-cd ${currdir}/extra/torch-svm && $PREFIX/bin/luarocks make svm-0.1-0.rockspec
+
+## should add `pwd`/install into the path, otherwise it can't find the torch_config.cmake
+#cd ${currdir}/extra/torch-svm && $PREFIX/bin/luarocks make svm-0.1-0.rockspec
