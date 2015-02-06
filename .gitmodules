@@ -94,3 +94,6 @@
 [submodule "extra/dp"]
 	path = extra/dp
 	url = https://github.com/nicholas-leonard/dp.git
+[submodule "demos"]
+	path = demos
+	url = https://github.com/torch/demos.git
