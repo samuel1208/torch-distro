@@ -97,3 +97,6 @@
 [submodule "demos"]
 	path = demos
 	url = https://github.com/torch/demos.git
+[submodule "extra/metriclearning"]
+	path = extra/metriclearning
+	url = https://github.com/lvdmaaten/metriclearning.git
