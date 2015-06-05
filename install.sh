@@ -15,6 +15,9 @@ git submodule init
 git submodule update
 git submodule foreach git pull origin master
 
+exit
+echo "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
 mkdir -p build
 cd build
 cmake .. -DCMAKE_INSTALL_PREFIX="${PREFIX}" -DCMAKE_BUILD_TYPE=Release
