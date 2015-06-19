@@ -100,3 +100,9 @@
 [submodule "extra/metriclearning"]
 	path = extra/metriclearning
 	url = https://github.com/lvdmaaten/metriclearning.git
+[submodule "extra/lmdb"]
+	path = extra/lmdb
+	url = https://github.com/eladhoffer/lmdb.torch.git
+[submodule "extra/decomposition"]
+	path = extra/decomposition
+	url = https://github.com/iassael/torch7-decomposition.git
