@@ -106,3 +106,6 @@
 [submodule "extra/decomposition"]
 	path = extra/decomposition
 	url = https://github.com/iassael/torch7-decomposition.git
+[submodule "pkg/itorch"]
+	path = pkg/itorch
+	url = https://github.com/facebook/iTorch.git
